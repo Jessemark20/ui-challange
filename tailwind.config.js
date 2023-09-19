@@ -13,7 +13,8 @@ export default {
       },
       fontFamily: {
         mon: 'Montserrat',
-        robo: 'Roboto'
+        robo: 'Roboto',
+        sc: 'Familjen Grotesk'
       }
     },
   },
