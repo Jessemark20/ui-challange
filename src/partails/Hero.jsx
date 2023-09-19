@@ -1,10 +1,13 @@
 import React from 'react'
 import chain from '../assets/images/chain-9365116-7621444.png'
+import man from "../assets/images/man-wearing-smart-glasses-touching-virtual-screen 1.png"
+import world from "../assets/images/image 1.png"
+
 
 export default function Hero() {
   return (
     <div className='hero-section p-6'>
-        <div className="flex w-full">
+        <div className="flex w-full items-center">
             <div className="w-1/2">
                 <div className="flex-col">
 
@@ -30,8 +33,16 @@ export default function Hero() {
                 </div>
             </div>
 
-            <div className="flex">
+            <div className="flex flex-col w-1/2 relative">
+        
+                {/* <div className='text-white font-mon italic text-xl flex justify-end mb-10'>
+                    <h1>Igniting a Revolution in HR Innovation</h1>
+                </div> */}
 
+                <div className="img1">
+                    <img src={man} alt="" />
+                </div>
+                <img src={world} className='absolute' alt="" />
             </div>
         </div>
     </div>
